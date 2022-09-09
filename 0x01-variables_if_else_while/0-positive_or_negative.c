@@ -2,9 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ *main - Entry point
+ *Return: Always 0 (Success)
+ */
 
 int main(void)
 {
@@ -21,7 +22,7 @@ int main(void)
 	}
 	else if (n == 0)
 	{
-		printf("%i is zer\n", n);
+		printf("%i is zero\n", n);
 	}
 	else
 		printf("%i is negative\n", n);
