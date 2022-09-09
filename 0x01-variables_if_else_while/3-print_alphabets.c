@@ -5,7 +5,7 @@
  *Return: Always 0 (Success)
  */
 
-int main(void) 
+int main(void)
 
 {
 
@@ -13,14 +13,14 @@ int main(void)
 
 	char upper = 'A';
 
-	while (lower <= 'z') /*print lowercases a-z*/
+	while (lower <= 'z')
 
 	{
 		putchar(lower);
 		lower++;
 	}
 
-	while (upper <= 'Z') /*print uppercase A-Z*/
+	while (upper <= 'Z')
 	{
 		putchar(upper);
 		upper++;
