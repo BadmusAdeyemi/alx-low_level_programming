@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - print character "\" n times
- *  number of characters to draw
+ * @n: number of characters to draw
  */
 
 void print_diagonal(int n)
