@@ -40,8 +40,8 @@ char *_strcpy(char *dest, char *src)
 
 /**
  * another method using pointer notation
-/**
-char *_strcpy(char *dest, char *src)
+ */
+cha88888trcpy(char *dest, char *src)
 {
 	while (*src)
 	{
@@ -51,4 +51,3 @@ char *_strcpy(char *dest, char *src)
 	}
 	return (dest);
 }
-*/
