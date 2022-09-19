@@ -7,13 +7,9 @@
 
 void randomPasswordGeneration(int N) 
 { 
-
-
     int i = 0; 
 
     int randomizer = 0; 
-
-  
 
     srand((unsigned int)(time(NULL))); 
   
