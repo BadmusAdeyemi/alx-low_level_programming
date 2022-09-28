@@ -45,5 +45,3 @@ int is_palindrome(char *s)
 
 	return (compare(s, (s + len - 1)));
 }
-Footer
-
