@@ -2,41 +2,22 @@
 #include "main.h"
 #include <stdlib.h>
 
-int mul(int argc, int argv)
-{
-	int a;
-	int b;
-	int x;
+/**
+ * main - print product of argument numbers
+ * @argc: argument counter
+ * @argv: numbers to multiply
+ * Return: 0 on success, 1 if two arguments not given
+ */
 
-	if(argc != 2)
+int main(int argc, char *argv[])
+{
+
+	if (argc != 3)
 	{
 		printf("Error\n");
-		exit(98);
+		return (1);
 	}
-	x = a * b;
-	return (x);
-}
 
-int multiple(int num1, int num2)
-{
-	int multy;
-
-	if ((num1 >= '0' && num1 <= '9') || (num2 >= '0' && num2 <= '9'))
-	{
-		multy = mul(num1, num2);
-		return (multy);
-	}
-	else
-	{
-		printf("Error\n");
-		exit(98);
-	}
-}
-
-int main(int i, int j)
-{
-	int k;
-
-	k = multiple(i, j);
-	return (k);
+	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+	return (0);
 }
