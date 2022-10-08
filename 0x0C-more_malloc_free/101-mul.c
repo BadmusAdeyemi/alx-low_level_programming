@@ -19,6 +19,9 @@ int main(int argc, char *argv[])
 	}
 
 	if ((atoi(argv[1]) >= '0' && atoi(argv[1]) <= '9') || (atoi(argv[2]) >= '0' && atoi(argv[2]) <= '9'))
+	{
 		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 		return (0);
+	}
 }
+
