@@ -16,14 +16,14 @@ int len(char *str)
 	return (i);
 }
 /**
- * strcpy - copies the string pointed to by src,
+ * cpy - copies the string pointed to by src,
  * including the terminating null byte (\0),
  * to the buffer pointed to by dest
  * @dest: copy source to this buffer
  * @src: this is the source to copy
  * Return: copy of original source
  */
- char *cpy(char *dest, char *src)
+char *cpy(char *dest, char *src)
 {
 	int i;
 
