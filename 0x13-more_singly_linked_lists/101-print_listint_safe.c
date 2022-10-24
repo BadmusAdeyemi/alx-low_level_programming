@@ -72,7 +72,7 @@ size_t print_listint_safe(const listint_t *head)
 
 	loop_found = loop(head);
 
-	if (loop_found == 1)
+	if (loop_found == 1) /* print upto last node before loop if loop */
 	{
 		count = count_nodes_till_loop(head);
 		for (loop_found = 0; loop_found < count; loop_found++)
@@ -82,7 +82,7 @@ size_t print_listint_safe(const listint_t *head)
 			tmp = tmp->next;
 		}
 	}
-	else if (loop_found == 0)
+	else if (loop_found == 0) /* print regularly upto NULL if no loop */
 	{
 		tmp = head;
 		while (tmp != NULL)
